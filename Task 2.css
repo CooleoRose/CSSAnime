@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+html {
+  background: linear-gradient(-45deg, black, 75%, grey);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+}
+
+span {
+  font-size: 200px;
+  font-family: 'Kanit', sans-serif;
+  margin: 10px;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+}
+
+.first-name1:active {
+  animation: fn1 4s;
+}
+
+@keyframes fn1 {
+  25% {
+    color: aqua;
+    transform: scale(4);
+  }
+
+  50% {
+    color: aqua;
+    rotate: 50deg;
+  }
+
+  75% {
+    translate: scaleY(100px);
+    transform: translate(380px,0);
+  }
+}
+
+.first-name2:active {
+  animation: fn2 8s;
+}
+
+@keyframes fn2 {
+  25% {
+    transform: scale(5);
+    color: #fcba03;
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: translate(600px,600px);
+    color: #ff00c8;
+  }
+}
+
+.first-name3:active {
+  animation: fn3 4s infinite;
+}
+
+@keyframes fn3 {
+  25% {
+    transform: scale(10);
+    color: #ff00c8;
+  }
+  50% {
+    transform: scale(-3);
+  }
+  55% {
+    transform: translate(0,1000px) scale(-3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.last-name1:active {
+  animation: ln1 2s linear;
+}
+
+@keyframes ln1 {
+  25% {
+    transform: scale(-10, -10);
+    color: #0dff00;
+  }
+  50% {
+    transform: translate(0, -200px);
+  }
+  75% {
+    transform: scale(10, 0.5) translate(0, -200px);
+  }
+  100% {
+    transform: translate(2000px, -125px);
+    color: #0dff00;
+  }
+}
+
+.last-name2:active {
+  animation: ln2 2s infinite;
+}
+
+@keyframes ln2 {
+  90% {
+    transform: rotate(720deg) translate(200px, -200px) scale(2);
+    color: #fcba03;
+  }
+  100% {
+    transform: scale(40);
+  }
+}
+
+.last-name3:active {
+  animation: ln3 3s linear;
+}
+
+@keyframes ln3 {
+  50% {
+    transform: scale(0.1);
+    color: #0328fc;
+  }
+  75% {
+    transform: translate(0, 1000px);
+  }
+  100% {
+    transform: translate(0, -2000px) scale(0.1);
+  }
+}
+
+.last-name4:active {
+  animation: ln4 2s infinite;
+}
+
+@keyframes ln4 {
+  20% {
+    transform: rotate(100deg) scaleX(0.1);
+    color: #00b3ff;
+  }
+  30% {
+    transform: rotate(210deg) scale(0.5, 1.1);
+    color: red;
+  }
+  40% {
+    transform: rotate(90deg) scale(1.5, 1.2);
+    color: red;
+  }
+  50% {
+    transform: rotate(361.1deg) scale(-1.55, 1.2);
+    color: #6fff00;
+  }
+  60% {
+    transform: rotate(202deg) scale(3.2, -0.5);
+    color: #ff05ee;
+  }
+  70% {
+    transform: rotate(46deg) scale(0.5, -1.2);
+    color: #380ef0;
+  }
+  80% {
+    transform: rotate(127deg) scale(0.5, 2.1);
+    color: #ffcc00;
+  }
+  90% {
+    transform: rotate(270deg) scale(3.1, 0.5);
+    color: #ec00fc;
+  }
+  100% {
+    transform: rotate(deg) scale(1, 1);
+    color: #00b7ff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.smth {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  border-radius: 10px;
+
+  animation: bob 2s infinite;
+}
+
+
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
